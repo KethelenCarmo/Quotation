@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotações com Highcharts</title>
+</head>
+
+<body>
+    <div></div>
+    <h2>Data de Ínicio</h2>
+    <input type="date" id="dateBegin">
+    <h2>Data de Fim</h2>
+    <input type="date" id="dateEnd"><br>
+    <h2>Moeda Referência</h2>
+    <select id="currency">
+        <option value="EUR" selected>Euro</option>
+        <option value="BRL">Real</option>
+        <option value="JPY">Iene</option>
+    </select>
+    <br>
+    <br>
+    <input type="button" value="Gerar Gráfico" id="btnGenerate"> 
+
+    <div id="container-grafico" style="width:100%; height:400px;"></div>
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    
+    <script type="module" src="main.js"></script>
+
+        
+</body>
+
+</html>

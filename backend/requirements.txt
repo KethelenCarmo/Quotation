@@ -1,0 +1,22 @@
+# requirements.txt
+
+# --- Core do Framework ---
+django==4.2.15
+# --- Configuração (para ler arquivos .env) ---
+python-dotenv==1.0.1
+
+# --- Requisições HTTP (se seu app consome APIs externas) ---
+requests==2.32.3
+django-cors-headers
+
+# --- Manipulação de Imagens (necessário para ImageField do Django) ---
+Pillow==10.4.0
+
+# --- Segurança e Autenticação ---
+# Geralmente usados para hashing de senhas ou tokens (JWT)
+bcrypt==4.2.0
+cryptography==42.0.5
+environs
+# --- Servidor de Aplicação para Produção (Exemplo) ---
+# Descomente a linha abaixo quando for para produção
+# gunicorn==22.0.0
