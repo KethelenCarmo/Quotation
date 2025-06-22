@@ -8,7 +8,7 @@ O projeto irá utilizar Docker e docker compose. Para executá-lo, bastar seguir
 
     1. Certifique-se de que o docker e docker compose já estão instalados em sua máquina. Se não estiverem, baixá-los em: https://docs.docker.com/compose/install/
 
-    2. Clone o seguinte repositório em sua máquina:
+    2. Clone o seguinte repositório em sua máquina: git clone git@github.com:KethelenCarmo/Quotation.git
 
     3. Caminhe até a pasta do projeto:
         cd <NOME_DA_PASTA>
